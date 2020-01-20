@@ -1,9 +1,17 @@
 import { Injectable } from '@angular/core';
+import { HttpHeaders } from  '@angular/common/http';
+import 'rxjs/add/operator/map'; 
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProfileService {
 
-  constructor() { }
+  private username:string;
+  private clientid = '06abd7f56f0d18419720';
+  private clientsecret = 'f08d720eca830ae0480dbbb1cfae27f8f425ce41';
+
+  constructor(private http:HttpHeaders) { 
+
+  }
 }
