@@ -12,6 +12,12 @@ export class ProfileService {
   private clientsecret = 'f08d720eca830ae0480dbbb1cfae27f8f425ce41';
 
   constructor(private http:HttpHeaders) { 
+    console.log( "the service is working!");
+    this.username = 'ZashyAris';
 
+  }
+  getProfileInfo(){
+    return this.http.get("https://api.github.com/users/" + this.username + "?client-id=" + this.clientid + "&client_secret=" this.clientsecret)
+    .localeCompare(res => res.json());
   }
 }
