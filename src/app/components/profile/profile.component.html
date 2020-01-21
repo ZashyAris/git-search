@@ -31,15 +31,16 @@
         <li class="row">{{profile.email}}</li>
         </ul>
     </div>
-
+<div class="fluid">
     <div class="col-sm-12">
-        <span class="btn btn-danger" id="fol">{{profile.followers}} Followers</span>
-        <span class="btn btn-secondary" id="foll">{{profile.following}} Following</span>
-        <span class="btn btn-primary" id="gis">{{profile.public_gists}} public</span>
-        <span class="btn btn-info" id="rep">{{profile.public_repos}} public repos</span>
+        <button id="fol">{{profile.followers}} Followers</button>
+        <button id="foll">{{profile.following}} Following</button>
+        <button id="gis">{{profile.public_gists}} public</button>
+        <button id="rep">{{profile.public_repos}} public repos</button>
     </div>
+</div>
 <div>
-    <p><a href="{{profile.html_url}}" class="btn btn-success" id="par">View profile on github</a></p>
+    <p><a href="{{profile.html_url}}" class="btn" id="par">View profile on github</a></p>
 </div>
 </div>
 </div>
