@@ -2,6 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
+##Author
+
+Sharon Atieno
+
+## Description.
+
+This is an Angular based application. A user is able to search his or her own git hub account and be able to see his or her git hub profile. 
+
+## Here is a live site link.
+https://zashyaris.github.io/git-search/
+
+## Code beat.
+[![codebeat badge](https://codebeat.co/badges/6c7423c8-c203-44bf-b132-ae53ca2e9340)](https://codebeat.co/projects/github-com-zashyaris-git-search-master)
+
+## Setup Requirements.
+
+Use ctrl+alt+t command to open the terminal. run git clone https://zashyaris.github.io/git-search/
+ cd into git-search run code . to open the cloned repository on Vscode. run atom . to open the cloned repository on Atom.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -24,4 +43,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README]
