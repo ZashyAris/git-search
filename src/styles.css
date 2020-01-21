@@ -11,3 +11,19 @@ body {
     font-family: 'philosopher' , 'sans-serif';
     font-size: 20px;
 }
+
+#fol{
+    background-color: aqua;
+}
+#foll{
+    background-color: bisque;
+}
+#gis{
+    background-color:pink;
+}
+#rep{
+    background-color: rosybrown
+}
+.btn{
+    background-color: peachpuff;
+}
